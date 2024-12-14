@@ -1,0 +1,26 @@
+.container {
+    display: block;
+    padding: 15px;
+    width: fit-content;
+    background-color:#f2f2f2;
+}
+
+.grid-container {
+    display: inline-block;
+    margin: 20px;
+}
+
+.column {
+    display: inline-block ;
+    margin-right: 2px;
+}
+
+.cell {
+    background-color:  #d1d1d1;
+    color: blue;
+    padding: 10px;
+    text-align: center;
+    margin-top: 5px;
+    box-shadow: #303030;
+    border: #a49f9f;
+}
