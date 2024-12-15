@@ -1,27 +1,22 @@
 h1 {
     text-decoration: underline;
 }
+
 hr {
     color: rgb(94, 92, 92);
     width: 40%;
     margin-left: 0%;
 }
-span p{
 
+span p {
     color: blue;
 }
-span ul{
 
+span ul {
     list-style-type: none;
- }
-
-
-div ul li{
-    color: black;
 }
 
 
-/* Styling specific links inside paragraphs */
 p a[href="https://github.com/Hareth2000/CSS-Exersice.git"],
 p a[href="https://www.google.com/"] {
     color: orange;
@@ -29,19 +24,20 @@ p a[href="https://www.google.com/"] {
 
 p a[href="#"] {
     background-color: yellow;
+    color: brown;
 }
 
-/* Styling list items and nested colors */
-ul li  {
+
+li ul {
     color: rgb(0, 72, 255);
 }
 
-/* Styling bold text inside list items */
+
 ul li b {
     color: inherit;
 }
 
-/* Styling links inside list items */
+
 ul li a {
     color: red;
 }
